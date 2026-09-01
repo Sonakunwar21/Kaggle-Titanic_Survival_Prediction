@@ -186,7 +186,7 @@ Titanic-Machine-Learning-from-Disaster/
 │
 ├── README.md
 │
-└── .gitignore
+└── licence
 ---
 ```
 ## 👩‍💻 Author

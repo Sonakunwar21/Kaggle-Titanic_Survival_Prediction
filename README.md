@@ -51,6 +51,10 @@ Missing-Value Analysis
 Data Cleaning
      ↓
 Feature Engineering
+   ├── Title Extraction
+   ├── Family Size
+   ├── IsAlone
+   └── Age/Fare Features
      ↓
 EDA & Visualization
      ↓
@@ -71,3 +75,114 @@ Final Model
 Test Prediction
      ↓
 Kaggle Submission
+---
+
+## 📊 Exploratory Data Analysis
+
+The EDA focused on understanding passenger characteristics, missing values, distributions, and their relationship with survival.
+
+### Key Analyses
+
+- Numerical feature distributions
+- Categorical feature distributions
+- Missing-value analysis
+- Survival rate by Sex
+- Survival rate by Passenger Class
+- Age vs Survival
+- Fare vs Survival
+- Sex × Passenger Class × Survival
+- Family Size × Sex × Survival
+- Correlation analysis
+
+### 🔑 Key Insights
+
+- **Sex** showed a strong relationship with survival.
+- **Passenger Class** strongly influenced survival.
+- Female passengers generally had higher survival rates.
+- Higher fares were generally associated with higher survival.
+- Very large families showed lower survival patterns.
+- `Cabin` contained a substantial amount of missing data.
+- `Fare` showed a right-skewed distribution.
+---
+
+## 🧠 Models & Evaluation
+
+The following classification approaches were explored:
+
+- Logistic Regression
+- Random Forest
+- Gradient Boosting / XGBoost
+
+### Evaluation Strategy
+
+- Stratified K-Fold Cross-Validation
+- Accuracy comparison
+- Model performance comparison
+- Error analysis
+- Hyperparameter tuning
+
+The models were evaluated using validation performance before generating predictions for the unseen test dataset.
+---
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|---|---|
+| Programming | Python |
+| Data Manipulation | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| Environment | Jupyter Notebook |
+| Competition | Kaggle |
+---
+## 💡 Key Learnings
+
+- EDA helps identify meaningful patterns before modeling.
+- Feature engineering can improve predictive performance.
+- Cross-validation provides a more reliable estimate of model performance.
+- Preprocessing must be handled carefully to avoid data leakage.
+- Local validation performance can differ from Kaggle performance.
+- Iterative experimentation is important for improving ML models.
+---
+
+## 📈 Outcome & Conclusion
+
+- Built an end-to-end Titanic classification project.
+- Performed structured EDA to identify important survival patterns.
+- Applied feature engineering and data preprocessing.
+- Used cross-validation to evaluate model performance.
+- Compared multiple classification approaches.
+- Generated predictions for the Kaggle test dataset.
+- Successfully created and submitted `submission.csv`.
+- Achieved a **77.51% accuracy** on the first Kaggle submission.
+---
+## 🚀 Future Improvements
+
+- Improve feature engineering using deeper EDA insights.
+- Perform more systematic hyperparameter tuning.
+- Explore advanced boosting and ensemble techniques.
+- Perform deeper error analysis.
+- Improve model generalization.
+- Compare future submissions against the **77.51% baseline**.
+
+---
+Titanic-Machine-Learning-from-Disaster/
+│
+├── 📂 data/
+│   ├── train.csv
+│   └── test.csv
+│
+├── 📂 notebooks/
+│   ├── Titanic_EDA.ipynb
+│   └── Titanic_ML.ipynb
+│
+├── 📂 submission/
+│   └── submission.csv
+│
+├── README.md
+│
+└── .gitignore
+---
+
+## 👩‍💻 Author
+
+**Sona Kunwar**

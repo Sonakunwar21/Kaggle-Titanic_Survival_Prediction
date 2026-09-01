@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20356974-f452-4107-b9c2-e99f8c966a7d" /># 🚢 Titanic — Machine Learning from Disaster Project
+# 🚢 Titanic — Machine Learning from Disaster Project
 
 > **From Passenger Data → Survival Insights → Machine Learning Predictions**
 

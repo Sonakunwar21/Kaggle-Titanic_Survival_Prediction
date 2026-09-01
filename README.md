@@ -1,4 +1,4 @@
-# 🚢 Titanic — Machine Learning from Disaster Project
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20356974-f452-4107-b9c2-e99f8c966a7d" /># 🚢 Titanic — Machine Learning from Disaster Project
 
 > **From Passenger Data → Survival Insights → Machine Learning Predictions**
 
@@ -41,6 +41,8 @@ The target variable is **`Survived`**, where:
 
 ## 🔍 Project Workflow
 
+```text
+
 Raw Dataset
      ↓
 Data Understanding
@@ -74,7 +76,7 @@ Final Model
 Test Prediction
      ↓
 Kaggle Submission
-
+```
 ---
 
 

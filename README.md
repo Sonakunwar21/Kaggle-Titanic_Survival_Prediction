@@ -168,6 +168,9 @@ The models were evaluated using validation performance before generating predict
 - Compare future submissions against the **77.51% baseline**.
 
 ---
+
+```text
+
 Titanic-Machine-Learning-from-Disaster/
 │
 ├── 📂 data/
@@ -185,7 +188,7 @@ Titanic-Machine-Learning-from-Disaster/
 │
 └── .gitignore
 ---
-
+```
 ## 👩‍💻 Author
 
 **Sona Kunwar**

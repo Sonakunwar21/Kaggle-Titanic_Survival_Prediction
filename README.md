@@ -1,4 +1,4 @@
-# 🚢 Titanic — Machine Learning from Disaster
+# 🚢 Titanic — Machine Learning from Disaster Project
 
 > **From Passenger Data → Survival Insights → Machine Learning Predictions**
 

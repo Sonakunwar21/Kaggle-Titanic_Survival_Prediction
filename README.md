@@ -41,7 +41,6 @@ The target variable is **`Survived`**, where:
 
 ## 🔍 Project Workflow
 
-```text
 Raw Dataset
      ↓
 Data Understanding
@@ -53,7 +52,7 @@ Data Cleaning
 Feature Engineering
    ├── Title Extraction
    ├── Family Size
-   ├── IsAlone
+   ├── Is Alone
    └── Age/Fare Features
      ↓
 EDA & Visualization
@@ -75,7 +74,9 @@ Final Model
 Test Prediction
      ↓
 Kaggle Submission
+
 ---
+
 
 ## 📊 Exploratory Data Analysis
 
